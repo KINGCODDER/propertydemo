@@ -1,0 +1,33 @@
+.input-search {
+  border: none;
+}
+
+.form-control:focus {
+  border-color: transparent !important;
+}
+
+.search-box {
+  display: flex;
+  width: 32%;
+}
+
+.nav-link-filterBox {
+  background-color: rgb(243, 243, 243);
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link-filterBox:hover {
+  color: black;
+}
+
+.active-link {
+  background-color: #3b55aa;
+  color: white;
+}
+
+.active-link:hover,
+.active-link:active,
+.active-link:focus {
+  color: white;
+}

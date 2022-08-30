@@ -1,0 +1,43 @@
+.rent-container {
+  background-color: rgb(243, 243, 243);
+  width: 100% !important;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+@media (max-width: 420px) and (min-width: 315px) {
+  .row {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  .col-4 {
+    width: 100% !important;
+  }
+
+  .nav-item {
+    margin: 5px 20px;
+  }
+
+  .logo {
+    width: 130%;
+  }
+
+  .container-fluid {
+    margin: 0px 23px;
+  }
+
+  .navbar-nav {
+    border-left: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  .search {
+    border: none;
+  }
+}

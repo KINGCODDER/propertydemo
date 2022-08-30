@@ -1,0 +1,70 @@
+.logo {
+  width: 20%;
+}
+
+.navbar .container-fluid {
+  border-bottom: rgb(234, 234, 234) 2px solid;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  width: 12%;
+  font-family: "Lato", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.search {
+  border-left: 3px solid rgb(234, 234, 234);
+}
+
+.navbar-nav {
+  border-left: 3px solid rgb(234, 234, 234);
+  margin-left: 30px;
+}
+
+.nav-item {
+  font-family: "Barlow", sans-serif;
+  margin: 0 20px;
+}
+
+.container-fluid {
+  margin: 13px 50px;
+}
+
+.active {
+  background-color: #94adff96;
+  color: #3b55aa !important;
+  border-radius: 10px;
+}
+
+.btn-outline-custom {
+  outline: solid #3b55aa 1px;
+  color: #3b55aa;
+  background-color: #94adff96;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.btn-outline-custom:hover {
+  outline: #3b55aa;
+  background-color: #3b55aa;
+  color: white;
+}
+
+.btn-custom {
+  outline: #3b55aa;
+  background-color: #3b55aa;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.btn-custom:hover {
+  outline: #3b55aa !important;
+  background-color: #3b55aa !important;
+  color: white !important;
+}
